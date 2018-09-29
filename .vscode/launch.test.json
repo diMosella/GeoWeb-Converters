@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "complete",
+                "projectName": "complete",
+                "workingDirectory": "/home/wim/Documenten/Projecten/knmi-converter",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "complete",
+                "projectName": "complete",
+                "workingDirectory": "/home/wim/Documenten/Projecten/knmi-converter",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
