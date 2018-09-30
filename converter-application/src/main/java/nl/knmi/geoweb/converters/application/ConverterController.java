@@ -30,14 +30,13 @@ public class ConverterController {
   @RequestMapping("/json")
   public String json() {
     try {
-      InputStream json = resourceLoader.getResource("classpath:data/employees.dat").getInputStream();
+      InputStream json = resourceLoader.getResource("classpath:taf.json").getInputStream();
       BufferedReader reader = new BufferedReader(new InputStreamReader(json));
       String result = reader.lines()
         .collect(Collectors.joining("\n"));
       return result;
-    } catch (IOException e) {
-      // TODO Auto-generated catch block
-      e.printStackTrace();
+    } catch (IOException err) {
+      err.printStackTrace();
       return "Couldn\'t load json file!";
 	  }
   }
