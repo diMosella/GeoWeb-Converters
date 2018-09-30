@@ -11,9 +11,9 @@
       "cwd": "${workspaceFolder}",
       "console": "internalConsole",
       "stopOnEntry": false,
-      "mainClass": "ConverterApplication",
+      "mainClass": "nl.knmi.geoweb.converters.application.ConverterApplication",
       "args": "",
-      "projectName": "converter"
+      "projectName": "converter-application"
     },
     {
       "type": "java",
@@ -23,18 +23,7 @@
       "console": "internalConsole",
       "stopOnEntry": false,
       "mainClass": "",
-      "args": ""
-    },
-    {
-      "type": "java",
-      "name": "Debug (Launch)-Application<complete>",
-      "request": "launch",
-      "cwd": "${workspaceFolder}",
-      "console": "internalConsole",
-      "stopOnEntry": false,
-      "mainClass": "hello.Application",
       "args": "",
-      "projectName": "complete"
     },
     {
       "type": "java",

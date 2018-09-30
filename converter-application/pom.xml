@@ -34,7 +34,7 @@
         </dependency>
         <!-- end::tests[] -->
         <dependency>
-            <groupId>nl.knmi.geoweb</groupId>
+            <groupId>nl.knmi.geoweb.converters</groupId>
             <artifactId>knmi-avi-messageconverter-json</artifactId>
             <version>${project.version}</version>
         </dependency>

@@ -1,4 +1,4 @@
-package hello;
+package nl.knmi.geoweb.converters.application;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -17,7 +17,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class HelloControllerTest {
+public class ConverterControllerTest {
 
     @Autowired
     private MockMvc mvc;
