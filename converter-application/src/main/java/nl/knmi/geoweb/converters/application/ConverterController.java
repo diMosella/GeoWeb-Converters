@@ -1,6 +1,6 @@
 package nl.knmi.geoweb.converters.application;
 
-import nl.knmi.geoweb.converters.service.JsonService;
+import nl.knmi.geoweb.converters.json.JsonService;
 
 import java.io.BufferedReader;
 import java.io.IOException;
